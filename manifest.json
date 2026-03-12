@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Human Typing Fun",
+  "version": "1.0",
+  "description": "Types saved text like a human.",
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
