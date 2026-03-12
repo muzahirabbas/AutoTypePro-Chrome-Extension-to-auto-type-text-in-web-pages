@@ -1,4 +1,4 @@
-# Human Typing Fun 🖊️
+# AutoTypePro 🖊️
 
 A Chrome extension that automates text input with realistic human-like typing patterns. Perfect for filling forms, testing input fields, or automating repetitive typing tasks.
 
